@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(240, 199, 17);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.img {
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 40px;
+  width: 400px;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px 20px;
+  color: yellow;
+  font-weight: bolder;
+}
+.learn {
+  margin-top: 50px;
+}
+.btn {
+  border: 6px solid yellow;
+  border-radius: 24px;
+  cursor: pointer;
+  color: yellow;
+  font-size: 30px;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+a:hover {
+  color: black;
+}
